@@ -1,10 +1,14 @@
 ﻿/*
 //task number two C# seminar
 //enter variabls
-int A = -9;
-int B = -3;
+int A;
+int B;
 int max;
 
+Console.WriteLine("enter number A: ");
+A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter number B: ");
+B = Convert.ToInt32(Console.ReadLine());
 if (A > B) //comparing variables
 {
     max = A;
@@ -20,10 +24,17 @@ Console.WriteLine(max); //output
 /*
 //task number four C# seminar
 //enter variabls
-int A = 2;
-int B = 3;
-int C = 7;
+int A;
+int B;
+int C;
 int max;
+
+Console.WriteLine("enter number A: ");
+A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter number B: ");
+B = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter number C: ");
+C = Convert.ToInt32(Console.ReadLine());
 
 if (A > B){  //comparing variables
     max = A;
@@ -54,9 +65,9 @@ if (a % 2 == 0){
 
 
 /*
-//task number six C# seminar
+//task number eight C# seminar
 //enter variabls
-int N;
+int N = 8;
 int count = 1;
 // enter number N
     Console.WriteLine("Please enter number: ");
